@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Contact</title>
+            <meta charset="utf-8">
+            <link rel="stylesheet" href="style.css">
+            <link href="https://fonts.googleapis.com/css2?family=Moon+Dance&family=The+Nautigal:wght@700&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Oswald&display=swap" rel="stylesheet">
+         
+        </head>
+        <body>
+            <nav>                                                                                 <!-- Menu -->
+                <ul>
+                    <li class="menu"><a href="evolution.html">Evolution</a></li>
+                    <li class="menu"><a href="fonctionnement.html">Fonctionnement</a></li>
+                    <li class="menu"><a href="incontournables.html">Les incontournables</a></li>
+                    <li class="menu"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <h1>Les montres</h1>
+            <form name="Formulaire" method="post" enctype="application/x-www-form-urlencoded"> <!--Formulaire-->
+                    <fieldset id="form">
+                            <legend class="legendform">Veuillez remplir ce formulaire pour vous inscrire à notre Newsletter</legend><br>
+                            
+                                <select name="civilite">
+                                    <option value="2">Madame</option>
+                                    <option value="3">Mademoiselle</option>
+                                    <option selected value="1">Monsieur</option>
+                                </select><br><br>
+                                <label for='Nom' class="Formulaire">Nom :</label>
+                                <input name = "Nom" type = "text" size="20" maxlength="20"><br><br>
+                                
+                                <label for='Prénom' class="Formulaire"> Prénom :</label>
+                                <input name = "Prénom" type = "text" size="20" maxlength="20"><br><br>
+                                
+                                <label for='Adresse' class="Formulaire"> Adresse :</label>
+                                <input name = "Adresse" type = "text" size="20" maxlength="40"><br><br>
+                                
+                                <label for='Ville' class="Formulaire"> Ville :</label>
+                                <input name = "Ville" type = "text" size="20" maxlength="30"><br><br>
+                                
+                                <label for='Email' class="Formulaire"> Email :</label>
+                                <input name = "Email" type = "email" size="30"><br><br>
+                                
+                                <input class="Formulaire" name="Check1" type="checkbox" value="Choix 1"> J'accepte de recevoir des mails
+                                pour recevoir les nouvautés du site<hr>
+                                
+                                <input name="optionradio" type="radio" value="chaque jour" class="Formulaire"/>Je souhaite recevoir un email par jour<br>
+                                <input name="optionradio" type="radio" value="chaque semaine" class="Formulaire"/>Je souhaite recevoir un email par semaine<br><br>
+                                
+                                <input type="submit" value="Envoyer">
+                    </fieldset>
+            </form>
+        </body>

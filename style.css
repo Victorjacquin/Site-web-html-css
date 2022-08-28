@@ -1,0 +1,148 @@
+body{                                                   /*Visuel global du site*/
+    font-family: 'Oswald', sans-serif;
+    background-image : url("images/fond4.jpg");
+    color : white;
+    margin: 0px;
+    padding:0px;
+    background-size:33.3%;
+    text-align:center;
+}
+
+h1 {                                                /* Taille et largeur du titre h1 sur toutes les pages */
+    font-size: 125px;
+    font-weight:600;
+    font-family: 'The Nautigal', cursive;
+}
+
+h2 {
+    font-size: 40px;
+}
+h3,p{
+    font-size : 20px;
+}
+img{
+    width : 400px;
+}
+.imgsansfleche{
+    width:400px;
+    border: 5px solid white;
+    box-shadow:0px 0px 25px white;
+}
+.texteshistoire{                                    /* visuel texte page évolution */
+    color : black;
+    background-color:white;
+    font-size:25px;
+    padding : 20px;
+    border : 20px solid grey;
+    margin : 50px;
+}
+.imgtableau{                                        /* modifier img place dans tableau*/
+    position: relative;
+    left:100px;
+    width:500px;
+}
+
+nav{                           /*Taille et couleur menu*/
+    width: 100%;
+    background-color:grey;
+}
+
+nav ul{                        /*reset marge menu*/
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+nav li{                         /*enlever puces et faire flotter cote à cote */
+    list-style-type: none;
+    float: left;
+}
+
+nav a {                         /* Détails menu */
+    font-family: 'The Nautigal', cursive;
+    font-size:50px;         
+    display: inline-block;
+    text-decoration: none;
+    padding : 20px 30px;
+    color : white;
+}
+.menu:hover{         /* faire apparaitre couleur et bordure quand passe dessus */
+    border-top: 5px solid white;
+    background-color:RGBa(0, 0, 0, 0.2);
+}
+
+
+nav li:hover a {                    /*enlever problème ligne qui grandit quand on passe dessus à cause de bordure */
+    padding: 15px 30px 20px 30px;
+}
+
+.Formulaire{                        /* couleur texte formulaire */
+    color: dark;
+}
+
+
+#form{                              /* visuel formulaire */
+    text-align:left;
+    background-color : grey;
+    padding: 10px;
+    margin: 0px 400px;
+    
+}
+
+legend{                             /* légende du formulaire*/
+    text-align:center;
+    color : dark;
+    background:grey;
+    font-weight:bold;
+    text-transform: uppercase;
+    font-size:20px;
+}
+.mecanisme{                       /* texte page fonctionnement */
+    color : white;
+    background : grey;
+    padding : 10px;
+    border : 10px solid white;
+    margin : 45px;
+}
+
+.gras{                              /* Tous les textes en gras */
+    font-weight : bold;
+    font-size : 25px;
+}
+
+.centrer{                           /*Centrer les images */
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.textefonctionnement{               /*Taille paragraphe page fonctionnement */
+    font-size :50px;
+}
+
+.qom{                               /*Couleur liens*/
+    color : darkgray;
+    
+}
+
+.qom:hover{                                     /*Changer couleur lien quand passe dessus*/
+    color:grey;
+}
+
+.imgincontournables{                            /*Taille image page les incontournables */
+    width:350px;
+}
+
+.borduretableau{                                 /*Bordure tableau et espace dans chaque case*/     
+    border: 7px solid grey;
+    padding : 40px;
+}
+
+
+
+
+
+
+
+
